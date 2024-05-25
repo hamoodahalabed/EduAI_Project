@@ -25,6 +25,7 @@ EduAI-OnlineLearning is a project aimed at revolutionizing the online learning e
 ## Configuration
 
 OPENAI_API_KEY=your_openai_api_key
+and any other variable in .env file 
 
 ## Technology Stack
 
