@@ -16,8 +16,26 @@ EduAI-OnlineLearning is a project aimed at revolutionizing the online learning e
 1. Clone the repository: `git clone https://github.com/your-username/EduAI-OnlineLearning.git`
 2. Navigate to the project directory: `cd EduAI-OnlineLearning`
 3. Install dependencies: `composer install`
-4. Copy `.env.example` to `.env` and configure your environment variables.
-5. Generate application key: `php artisan key:generate`
-6. Run migrations: `php artisan migrate`
-7. run php  `php artisan db:seed`
-8. Start the development server: `php artisan serve`
+5. Copy `.env.example` to `.env` and configure your environment variables.
+6. Generate application key: `php artisan key:generate`
+7. Run migrations: `php artisan migrate`
+8. run php  `php artisan db:seed`
+9. Start the development server: `php artisan serve`
+
+## Configuration
+
+OPENAI_API_KEY=your_openai_api_key
+
+## Technology Stack
+
+- **Backend:** Laravel 8
+- **Frontend:** Blade
+- **Database:** MySQL
+
+## Prerequisites
+
+- **XAMPP:** Download and install XAMPP from [Apache Friends](https://www.apachefriends.org/index.html).
+- **Composer:** Dependency manager for PHP, install from [getcomposer.org](https://getcomposer.org/).
+- **Node.js and npm:** Install from [nodejs.org](https://nodejs.org/).
+- **Git:** Version control system, install from [git-scm.com](https://git-scm.com/).
+
